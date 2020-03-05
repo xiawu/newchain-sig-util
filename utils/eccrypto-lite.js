@@ -2,7 +2,7 @@
 
 var EC = require("elliptic").ec;
 
-var ec = new EC("secp256k1");
+var ec = new EC("p256");
 var cryptoObj = global.crypto || global.msCrypto || {};
 var subtle = cryptoObj.subtle || cryptoObj.webkitSubtle;
 

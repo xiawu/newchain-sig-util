@@ -1,7 +1,7 @@
 {
-  "name": "eth-sig-util",
-  "version": "2.5.2",
-  "description": "A few useful functions for signing ethereum data",
+  "name": "newchain-sig-util",
+  "version": "0.1.0",
+  "description": "A few useful functions for signing newchain data",
   "main": "index.js",
   "files": [
     "index.js",
@@ -16,23 +16,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/MetaMask/eth-sig-util.git"
+    "url": "git+ssh://git@github.com:xiawu/newchain-sig-util.git"
   },
   "keywords": [
-    "ethereum",
+    "newchain",
     "signature"
   ],
   "author": "Dan Finlay",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MetaMask/eth-sig-util/issues"
+    "url": "https://github.com/xiawu/newchain-sig-util/issues"
   },
-  "homepage": "https://github.com/MetaMask/eth-sig-util#readme",
+  "homepage": "https://github.com/xiawu/newchain-sig-util#readme",
   "dependencies": {
     "buffer": "^5.2.1",
     "elliptic": "^6.4.0",
     "ethereumjs-abi": "0.6.5",
     "ethereumjs-util": "^5.1.1",
+    "newchainjs-util": "^0.1.2",
     "tweetnacl": "^1.0.0",
     "tweetnacl-util": "^0.15.0"
   },
